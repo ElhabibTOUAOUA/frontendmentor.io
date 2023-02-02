@@ -1,29 +1,96 @@
 .card {
-  width: 800px;
-  height: 600px;
-  border: 1px solid #000;
-  border-radius: 10px;
+  width: 80rem;
+  height: 60rem;
+  /* border: 1px solid #000; */
+  border-radius: 1.2rem;
+  overflow: hidden;
 }
 
 img {
-  height: 400px;
+  height: 100%;
 }
 
 .card-image {
-  width: 30%;
+  overflow: hidden;
+  width: 100%;
 }
 
+.card-content {
+  padding: 2rem 4rem;
+  align-items: center;
+  background-color: #fff;
 
-.card-content {}
+}
 
-.card-title {}
+.card-type {
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+  font-size: 1.6rem;
+  color: #6c7289;
+}
 
-.card-description {}
+.card-title {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: Fraunces;
+}
 
-.card-price {}
+.card-description {
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  color: #6c7289;
+  line-height: 1.6;
+}
 
-.card-price--old {}
+.card-price {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 
-.card-price--new {}
+.card-price--new {
+  font-size: 4rem;
+  font-family: Fraunces;
+  color: #3c8067
+}
 
-.card-button {}
+.card-price--old {
+  color: #6c7289;
+  text-decoration: line-through;
+  font-size: 1.6rem;
+  font-family: Montserrat;
+}
+
+.card-button {
+  padding: 2rem;
+  border-radius: .9rem;
+  border: none;
+  background-color: #3c8067;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-button span {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.card-button-icon {
+  stroke: #fff;
+  width: 2.4rem;
+  height: 2.4rem
+}
+
+.card-button:link,
+.card-button:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-button:hover,
+.card-button:active {
+  background-color: #244d3e;
+  cursor: pointer;
+}
