@@ -1,0 +1,29 @@
+.card {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+img {
+  height: 400px;
+}
+
+.card-image {
+  width: 30%;
+}
+
+
+.card-content {}
+
+.card-title {}
+
+.card-description {}
+
+.card-price {}
+
+.card-price--old {}
+
+.card-price--new {}
+
+.card-button {}
