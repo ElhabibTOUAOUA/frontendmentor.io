@@ -2,29 +2,107 @@
   width: 34rem;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #14253d;
   border-radius: 2rem;
+  row-gap: 2rem;
 }
 
-.card__qr img {
+.card__description {
+  row-gap: 2rem;
+}
+
+.card__image img {
   height: 30rem;
   border-radius: 1.2rem;
 }
 
-.card__text {
-  padding: 2rem 1.4rem;
-  text-align: center;
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 2rem;
-  color: #1f3251
+.author-info img {
+  height: 3rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
-p {
-  font-size: 1.5rem;
+.author-name,
+.days-left,
+.card__description p {
+  color: #8bacda;
+  line-height: 1.6;
+}
+
+.eth-value {
+  color: #00fff7;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
   font-weight: 400;
-  margin-top: 2rem;
-  color: #7b879d;
+  font-size: 1.2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+
+hr {
+  color: #2f415b;
+  outline: none;
+}
+
+.card-title {
+  color: #fff
+}
+
+.card__description p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  color: #00fff7
+}
+
+.card__image {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #00fff77a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+}
+
+.overlay img {
+  height: 3rem;
+}
+
+.card__image:hover .overlay {
+  opacity: 1;
 }
