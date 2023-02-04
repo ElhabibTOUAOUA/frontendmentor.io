@@ -127,12 +127,11 @@ body {
 
 .container {
   max-width: 144rem;
-  margin: 0 auto;
   padding: 0 2rem;
-  display: grid;
-  justify-content: center;
+  margin: 0 auto;
+  display: flex;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .grid {

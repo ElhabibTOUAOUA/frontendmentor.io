@@ -1,0 +1,36 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 768px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 53em) {
+
+  .card {
+    width: 52em;
+    height: 80%;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-1 {
+    row-gap: 3rem;
+  }
+
+  .card-image {
+    height: 100%;
+  }
+
+  .card-description {
+    font-size: 2rem;
+  }
+
+  #product-image {
+    content: url("../img/image-product-mobile.jpg");
+    /* src: "../img/image-product-mobile.jpg"; */
+    height: 140%;
+    width: 100%;
+  }
+}
