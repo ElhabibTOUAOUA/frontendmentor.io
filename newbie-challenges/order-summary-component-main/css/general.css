@@ -1,0 +1,149 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+  Font-family: Fraunces, Montserrat, sans-serif
+  Font-size: 10px
+  Font-weight: 500
+  Line-height: 1
+  Letter-spacing: 0.75px
+
+--- 02 COLORS
+  Primary: 
+    - Pale blue: hsl(225, 100%, 94%)
+    - Bright blue: hsl(245, 75%, 52%)
+  Neutral
+    - Very pale blue: hsl(225, 100%, 98%)
+    - Desaturated blue: hsl(224, 23%, 55%)
+    - Dark blue: hsl(223, 47%, 23%)
+  Cream: 
+  Tints:
+
+  Shades: 
+
+  Accents:
+  
+  Greys: 
+    Very light gray: hsl(0, 0%, 98%)
+    Light gray: hsl(0, 0%, 95%)
+    Gray: hsl(0, 0%, 75%)
+    Dark gray: hsl(0, 0%, 60%)
+    Very dark gray: hsl(0, 0%, 40%)
+    Black: hsl(0, 0%, 0%)
+
+--- 03 SHADOWS
+  Default: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+  Hover: 0 0.5rem 1rem rgba(0, 0, 0, 0.2)
+
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+
+--- 04 BORDER-RADIUS
+  Default: 0.5rem;
+  Medium:
+
+--- 05 WHITESPACE
+  Padding: 2rem
+  Margin: 2rem
+
+--- 06 GRID SYSTEM
+  1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10 / 11 / 12
+
+--- 07 SPACING SYSTEM (px)
+  0 / 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- 08 MEDIA QUERIES
+  Mobile: 375px
+  Tablet: 768px
+  Desktop: 1024px
+  Large desktop: 1440px
+
+--- 09 Z-INDEX
+
+--- 10 TRANSITIONS
+  Default: 0.3s ease-in-out
+
+
+--- 11 ANIMATIONS
+
+--- 12 EASING
+  Default: cubic-bezier(0.645, 0.045, 0.355, 1)
+  
+--- 13 BREAKPOINTS
+  Mobile: 375px
+  Tablet: 768px
+  Desktop: 1024px
+  Large desktop: 1440px
+  
+--- 14 FONT-FAMILY
+  Fraunces
+  Montserrat
+
+--- 15 FONT-SIZE
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- 16 FONT-WEIGHT
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
+
+--- 17 LINE-HEIGHT
+  Default: 1
+  Small: 1.05
+  Medium: 1.2
+  Paragraph default: 1.6
+  Large: 1.8
+
+--- 18 LETTER-SPACING
+  -0.5px
+  0.75px
+  1.5px
+  2.25px
+
+
+*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  /* text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #e0e8ff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 144rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}

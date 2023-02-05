@@ -1,0 +1,99 @@
+.order__card {
+  background-color: #fff;
+  max-width: 32rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.card-content {
+  padding: 3rem;
+  text-align: center;
+  row-gap: 2rem;
+}
+
+.card-content-header {
+  font-weight: 900;
+  color: #1f2f56
+}
+
+.card-description {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #7280a7;
+}
+
+.plan {
+  background-color: #f5f7ff;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.plan-img {
+  max-width: 100%;
+  height: 3rem;
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: .5rem;
+}
+
+.plan-type {
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.plan-price {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.plan-change {
+  margin-left: auto;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: .6rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-confirm {
+  color: #fff;
+  background-color: #3829e0;
+}
+
+.btn-cancel {
+  background-color: white;
+  color: #7280a7;
+  font-weight: 700;
+}
+
+.btn-confirm:hover {
+  background-color: #3829e0a2;
+}
+
+.btn-cancel:hover {
+  color: #1f2f56;
+}
+
+.plan-change a:link::hover {
+  text-decoration: none;
+  color: #3829e0a2;
+}
