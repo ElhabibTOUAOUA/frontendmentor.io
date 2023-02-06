@@ -17,3 +17,4 @@
 
 # Avoind accidental upload of the .history folder
 .history
+.vscode
