@@ -1,6 +1,6 @@
 .order__card {
   background-color: #fff;
-  max-width: 32rem;
+  max-width: 44rem;
   border-radius: 1.2rem;
   overflow: hidden;
 }
@@ -12,33 +12,36 @@
 .card-content {
   padding: 3rem;
   text-align: center;
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .card-content-header {
+  font-size: 2.4rem;
   font-weight: 900;
   color: #1f2f56
 }
 
 .card-description {
   line-height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
   font-weight: 700;
   color: #7280a7;
 }
 
 .plan {
+  font-size: 1.6rem;
   background-color: #f5f7ff;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
 }
 
 .plan-img {
   max-width: 100%;
-  height: 4rem;
+  height: 5rem;
 }
 
 .plan-info {
@@ -51,12 +54,10 @@
 .plan-type {
   color: #1f2f56;
   font-weight: 900;
-  font-size: 1.2rem;
 }
 
 .plan-price {
   line-height: 2rem;
-  font-size: 1.2rem;
   font-weight: 500;
   color: #7280a7;
 }
@@ -67,10 +68,10 @@
 }
 
 .btn {
-  padding: 1rem;
+  padding: 1.8rem;
   border-radius: 1.2rem;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   cursor: pointer;
   width: 100%;
 }
