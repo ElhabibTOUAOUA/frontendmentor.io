@@ -38,7 +38,7 @@
 
 .plan-img {
   max-width: 100%;
-  height: 3rem;
+  height: 4rem;
 }
 
 .plan-info {
@@ -51,12 +51,12 @@
 .plan-type {
   color: #1f2f56;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .plan-price {
   line-height: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #7280a7;
 }
@@ -68,10 +68,11 @@
 
 .btn {
   padding: 1rem;
-  border-radius: .6rem;
+  border-radius: 1.2rem;
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
+  width: 100%;
 }
 
 .btn-confirm {
@@ -83,6 +84,7 @@
   background-color: white;
   color: #7280a7;
   font-weight: 700;
+  margin-top: 1.2rem;
 }
 
 .btn-confirm:hover {
@@ -93,7 +95,13 @@
   color: #1f2f56;
 }
 
-.plan-change a:link::hover {
+.plan-change {
+  color: #3829e0;
+  font-weight: 900;
+}
+
+.plan-change:link:hover,
+.plan-change:visited:hover {
   text-decoration: none;
   color: #3829e0a2;
 }

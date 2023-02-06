@@ -4,4 +4,19 @@
 /* BELOW 768px (Smaller tablets) */
 /**************************/
 
-@media (max-width: 24em) {}
+@media (max-width: 24em) {
+  html {
+    font-size: 75%;
+  }
+
+  .btn {
+    /* font-size: 1.4rem; */
+    font-weight: 700;
+    padding: 1.4rem;
+  }
+
+  .btn-cancel {
+    margin-top: 0.6rem;
+  }
+
+}
