@@ -26,10 +26,6 @@
 
 @media (max-width: 48em) {
 
-  .main-container {
-    /* padding: 0 4rem; */
-  }
-
   header img {
     max-width: 30%;
   }
