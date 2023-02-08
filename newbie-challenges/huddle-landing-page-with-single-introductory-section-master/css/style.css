@@ -1,0 +1,77 @@
+.main-container {
+  padding: 0 2rem;
+}
+
+header {
+  align-self: center;
+}
+
+header img {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 2.2rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.hero-section {
+  column-gap: 4rem;
+  align-items: center;
+}
+
+.hero-section-img {
+  max-width: 100%;
+}
+
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.btn-register {
+  padding: 2rem 8rem;
+  color: #674baf;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 999px;
+  border: none;
+  align-self: flex-start;
+}
+
+.btn-register:hover {
+  background-color: #e882e8;
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.social-apps {
+  justify-self: end;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  align-self: center;
+}
+
+.social-icon:hover {
+  color: #e882e8;
+  border-color: #e882e8
+}

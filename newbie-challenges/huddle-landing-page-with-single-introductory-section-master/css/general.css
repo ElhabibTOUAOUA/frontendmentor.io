@@ -119,18 +119,18 @@ body {
   letter-spacing: 0.75px;
   background-color: #674baf;
   min-height: 100vh;
+  background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   /* text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
 
-.container {
+.main-container {
   max-width: 144rem;
   padding: 0 2rem;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
 }
 
